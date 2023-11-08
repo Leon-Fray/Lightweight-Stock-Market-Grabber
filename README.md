@@ -2,7 +2,7 @@
 
 A free, lightweight, blazing-fast static page to get stock quotes using the [IEX Cloud](https://iexcloud.io/). Stocks can be grouped into user-defined portfolios. Quotes update every 10 seconds. Everything is contained within index.html, there are no external javascripts or stylesheets to load.
 
-See here for a live demo: https://toddwschneider.com/stocks/
+
 
 ## Motivation
 
@@ -10,13 +10,13 @@ I used to use Google Finance portfolios as a simple way to watch a few baskets o
 
 ## Screenshot
 
-[![sample stocks](https://user-images.githubusercontent.com/70271/39388917-b15dde6e-4a51-11e8-8a30-72c8bd42f50a.png)](https://toddwschneider.com/stocks/)
+
 
 ## Customize
 
 Add portfolio names and symbols as query parameters in the URL. For example, if you wanted to see the collection of bank and tech stocks from the above screenshot, you could use this URL:
 
-https://toddwschneider.com/stocks/?Banks=GS,MS,JPM&Tech=AAPL,GOOGL,MSFT,AMZN
+https://leonfray.com/stocks/?Banks=GS,MS,JPM&Tech=AAPL,GOOGL,MSFT,AMZN
 
 Alternatively, you can edit the `DEFAULT_PORTFOLIOS` variable within `index.html`. For example:
 
